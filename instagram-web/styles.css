@@ -3,29 +3,69 @@ html {
     padding: 0;
     color: #fff;
     font-family: 'Montserrat', 'Roboto' , sans-serif;
+    overflow: hidden;
 }
 .content {
+    margin: 5% 5% 5% 15%;
     display: flex;
-    background-color: #131421;
+    background-color: #191a2a;
     border-radius: 20px;
-    height: 85vh;
-    width: 80vw;
+    height: 75vh;
+    width: 70%;
+
 }
 
 .board-menu {
+    height: 75vh;
+    width: 30%;
     display: inline;
     background-color: #131421;
+    padding-left: 2%;
+    border-radius: 20px 0 0 20px; /* top-left | top-right | bottom-right | bottom-left */
 }
 
 .logo {
+    padding: 10%;
     display: flex;
+    align-items: center;
 }
 
 .logo label {
-    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Lobster Two', 'Lobster';
+    padding-left: 5%;
+    font-size: 28px;
 }
 
 .logo img {
-    height: 40%;
-    width: 40%;   
+    height: 10%;
+    width: 15%;   
+}
+
+.icon {
+    padding-left: 15%;
+    height: 10%;
+    width: 80%;
+    position: static;
+}
+
+.border-storie img {
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    z-index: 0;
+    border-radius: 50px;
+}
+.inside-border-img img {
+    padding: 0.7% 3.1% 2.2% 2.7%;
+    position: absolute;
+    z-index: 1;
+    height: 8.5%;
+    width: 5%;
+
+}
+
+.user-name {
+    padding-top: 15%;
 }
