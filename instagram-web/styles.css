@@ -6,17 +6,16 @@ html {
     overflow: hidden;
 }
 .content {
-    margin: 5% 5% 5% 15%;
+    margin: 3% 5% 5% 15%;
     display: flex;
     background-color: #191a2a;
     border-radius: 20px;
-    height: 75vh;
+    height: 80vh;
     width: 70%;
-
 }
 
 .board-menu {
-    height: 75vh;
+    height: 80vh;
     width: 30%;
     display: inline;
     background-color: #131421;
@@ -26,6 +25,7 @@ html {
 
 .logo {
     padding: 10%;
+    padding-left: 10vh;
     display: flex;
     align-items: center;
 }
@@ -44,28 +44,217 @@ html {
 }
 
 .icon {
-    padding-left: 15%;
+    padding-left: 25%;
     height: 10%;
     width: 80%;
     position: static;
 }
 
 .border-storie img {
-    height: 10%;
-    width: 10%;
+    height: 10vh;
+    width: 8vw;
     position: absolute;
     z-index: 0;
     border-radius: 50px;
 }
 .inside-border-img img {
-    padding: 0.7% 3.1% 2.2% 2.7%;
+    padding: 0.7% 3.1% 2.2% 2.1%;
     position: absolute;
     z-index: 1;
-    height: 8.5%;
-    width: 5%;
+    height: 8.2vh;
+    width: 4vw;
 
 }
 
 .user-name {
-    padding-top: 15%;
+    display: inline-grid;
+    padding-top: 5vh;
+}
+
+.user-name .name {
+    width: 100%;
+    padding-left: 5vw;
+    font-size: 22px;
+}
+
+.user-name .username {
+    font-size: 14px;
+    padding: 5% 5% 5% 7vw;
+    opacity: 0.5;
+}
+
+.data-user {
+    display: flex;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding: 1vh 1.5vh 1vh 0vh;
+}
+
+.qtd-posts , .qtd-followers, .qtd-following {
+    display: grid;
+}
+
+.qtd-posts .number , .qtd-followers .number , .qtd-following .number {
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+}
+
+.qtd-posts .text-data, .qtd-followers .text-data, .qtd-following .text-data {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.data-user hr {
+    height: 6vh;
+    opacity: 0.5;
+}
+
+.menu {
+    display: inline;
+    height: 50vh;
+}
+
+.option, .active {
+    display: flex;
+    padding-bottom: 2vh;
+}
+.menu .active img, .menu .activity {
+    height: 2.4vh;
+}
+
+.menu .igtv {
+    height: 3vh;
+    width: 1.2vw;
+}
+
+.menu .reels {
+    height: 1.9vh;
+}
+
+.menu .shop, .menu .settings, .menu .logout  {
+    height: 2.4vh;
+}
+
+.menu label {
+    padding-top: 0;
+    padding-left: 1vw;
+    align-self: center;
+    text-align: center;
+    font-size: 16px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu .logout {
+    padding-top: 2vh;
+}
+
+.menu .option-last {
+    display: flex;
+    align-self: center;
+    padding-bottom: 1vh;
+}
+
+.menu .option-last label {
+    padding-top: 2vh;
+    padding-left: 0.7vw;
+}
+
+.menu hr {
+    opacity: 0.5;
+    width: 15vw;
+    margin-left: 2vw;
+}
+
+.row {
+    display: flex;
+    padding-top: 2vh;
+}
+
+.search {
+    display: flex;
+    padding-left: 2vw;
+}
+.row .search img {
+    padding-top: 0.4vh;
+    padding-left: 0.4vw;
+    height: 2vh;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+}
+
+.row .search input {
+    color: #fff;
+    width: 35vw;
+    height: 3vh;
+    border-radius: 4px;
+    border: none;
+    position: inherit;
+    z-index: 0;
+    background-color: #484b5a;
+    opacity: 0.5;
+}
+
+.row .notifications img, .row .message img {
+    height: 2vh;
+    padding-left: 1vw;
+    padding-top: 0.5vh;
+}
+
+.row .add-photo {
+    padding-left: 1vw;
+    display: flex;
+    width: 8vw;
+}
+
+.row .add-photo img {
+    height: 2vh;
+    position: absolute;
+    z-index: 1;
+    padding-left: 0.7vw;
+    padding-top: 0.5vh;
+}
+
+.row .add-photo button {
+    text-align: right;
+    font-size: 15px;
+    width: 6vw;
+    height: 3vh;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background: rgb(233,97,73);
+    background: linear-gradient(96deg, rgba(233,97,73,1) 38%, rgba(193,52,145,1) 93%);
+}
+
+.stories {
+    padding-top: 5vh;
+    padding-left: 2vw;
+}
+
+.stories .add-storie {
+    display: flex;
+}
+
+.add-storie .plus {
+    height: 10vh;
+    padding-left: 2vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.add-storie .border-storie img {
+    height: 6vh;
+    width: 6vw;
+}
+
+.add-storie .inside-border-img img {
+    margin-right: 0.5vw;
+    opacity: 0.5;
+    height: 4.5vh;
+    width: 2.5vw;
 }
