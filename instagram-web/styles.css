@@ -2,9 +2,30 @@ html {
     margin: 0;
     padding: 0;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Roboto' , sans-serif;
 }
-.board-menu {
+.content {
     display: flex;
     background-color: #131421;
+    border-radius: 20px;
+    height: 85vh;
+    width: 80vw;
+}
+
+.board-menu {
+    display: inline;
+    background-color: #131421;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo label {
+    font-size: medium;
+}
+
+.logo img {
+    height: 40%;
+    width: 40%;   
 }
