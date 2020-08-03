@@ -73,13 +73,13 @@ html {
 
 .user-name .name {
     width: 100%;
-    padding-left: 5vw;
+    padding-left: 2vw;
     font-size: 22px;
 }
 
 .user-name .username {
     font-size: 14px;
-    padding: 5% 5% 5% 7vw;
+    padding: 0.3vh 5% 5% 4vw;
     opacity: 0.5;
 }
 
@@ -235,8 +235,10 @@ html {
     padding-top: 5vh;
 }
 
-.stories .stories-text {
+.stories .stories-text, .feed .text-feed {
     padding-left: 1vw;
+    font-weight: 700;
+    font-size: 22px;
 }
 .add-storie {
     padding-top: 1vh;
@@ -282,4 +284,23 @@ html {
     height: 4.5vh;
     width: 2.5vw;
     padding: 1vh 1vh 1.2vh 3.2vh;
+}
+
+.feed {
+    display: flex;
+}
+.first-grid-post {
+    display: grid;
+    width: 7vw;
+}
+
+.post {
+    display: inline-grid;
+    padding-left: 2vw;
+}
+
+.post img {
+
+    height: 7vh;
+    width: 7vw;
 }
