@@ -222,7 +222,7 @@ html {
 .row .add-photo button {
     text-align: right;
     font-size: 15px;
-    width: 6vw;
+    width: 7.5vw;
     height: 3vh;
     border: none;
     color: #fff;
@@ -233,21 +233,32 @@ html {
 
 .stories {
     padding-top: 5vh;
-    padding-left: 2vw;
 }
 
-.stories .add-storie {
+.stories .stories-text {
+    padding-left: 1vw;
+}
+.add-storie {
+    padding-top: 1vh;
+}
+
+.stories .add-storie, .stories .people-stories {
     display: flex;
 }
 
 .add-storie .plus {
-    height: 10vh;
-    padding-left: 2vw;
+    height: 6vh;
+    padding-left: 1.2vw;
     position: absolute;
     z-index: 1;
 }
 
-.add-storie .border-storie img {
+.people-stories {
+    width: 50vw;
+    height: 8vh;
+    display: grid;
+}
+.add-storie .border-storie img, .people-stories .border-storie img {
     height: 6vh;
     width: 6vw;
 }
@@ -257,4 +268,18 @@ html {
     opacity: 0.5;
     height: 4.5vh;
     width: 2.5vw;
+    padding: 1vh 1vh 1.2vh 3.2vh;
+}
+
+.stories .people-stories .border-storie{
+    display: grid;
+    justify-content: space-between;
+    width: 2vw;
+    padding-left: 5vw;
+}
+
+.people-stories .border-storie .inside-border-img img {
+    height: 4.5vh;
+    width: 2.5vw;
+    padding: 1vh 1vh 1.2vh 3.2vh;
 }
