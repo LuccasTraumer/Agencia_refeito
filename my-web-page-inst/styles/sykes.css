@@ -31,19 +31,54 @@ html, body {
 }
 
 .description {
+    display: inline-grid;
     margin-top: 3vh;
 }
 
 .social-medias {
     margin-top: 5vh;
+    align-items: center;
 }
 
 .social-medias section {
     height: 7vh;
+    align-items: center;
+    padding-top: 1vh;
 }
 
 .social-medias img {
-    margin-right: 0.5vw;
+    margin-right: 1vw;
     height: 25px;
     width: 25px;
+}
+
+.social-medias label {
+    margin-left: 0.5vw;
+}
+
+.social-medias .facebook img {
+    height: 27px;
+    width: 30px;
+
+}
+
+.social-medias .linkedin img {
+    height: 33px;
+    width: 35px;
+
+}
+
+.social-medias .instagram img {
+    height: 25px;
+    width: 35px;
+
+}
+
+.social-medias .twitter {
+    margin-right: 2vw;
+}
+
+.social-medias .twitter img {
+    height: 33px;
+    width: 35px;
 }
