@@ -11,14 +11,24 @@ html, body {
     width: 100vw;
     margin-left: 0;
     margin-right: 0;
+
+}
+
+.row {
+    width: 100vw;
 }
 
 .my-border {
     text-align: center;
-    max-width: 25vw;
+    max-width: 20vw;
     margin: 0;
     background-color: #131421;
     height: 100vh;
+}
+
+.feed {
+    max-width: 80vw;
+    margin-right: 0;
 }
 
 .profile-photo img {
@@ -28,6 +38,10 @@ html, body {
     width: 100px;
     border-radius: 50%;
     border: none;
+}
+
+.name-username {
+    display: inline-grid;
 }
 
 .description {
