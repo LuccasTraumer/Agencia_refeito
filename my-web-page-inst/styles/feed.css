@@ -3,6 +3,19 @@
     display: block;
 }
 
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.content-posts {
+    padding: 16px;
+    margin-top: 30px;
+    height: 90vh;
+}
+
 .post {
     height: 20vh;
     margin-bottom: 10vh;
